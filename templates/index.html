@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>demo-petstore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 2rem; }
+    h1 { font-weight: 600; }
+    .pets { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+    .pet { background: #1e293b; border-radius: 12px; padding: 1.25rem 1.5rem; min-width: 160px; text-align: center; }
+    .pet .emoji { font-size: 2.5rem; }
+    .pet .name { font-weight: 600; margin-top: 0.5rem; }
+    .pet .species { color: #94a3b8; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>demo-petstore</h1>
+  <p>A small sample app used in a Solo.io agent-SDLC demo.</p>
+  <div class="pets">
+    {% for pet in pets %}
+    <div class="pet">
+      <div class="emoji">{{ pet.emoji }}</div>
+      <div class="name">{{ pet.name }}</div>
+      <div class="species">{{ pet.species }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</body>
+</html>
