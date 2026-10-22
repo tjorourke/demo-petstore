@@ -13,7 +13,6 @@ PETS = [
     {"id": 2, "name": "Marmalade", "species": "Cat", "emoji": "\U0001F408"},
     {"id": 3, "name": "Pip", "species": "Rabbit", "emoji": "\U0001F430"},
     {"id": 4, "name": "Nimbus", "species": "Bird", "emoji": "\U0001F426"},
-    {"id": 5, "name": "Glider", "species": "Sugarglider", "emoji": "\U0001F43F"},
 ]
 
 
